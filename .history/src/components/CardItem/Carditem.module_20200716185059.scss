@@ -1,0 +1,43 @@
+.root {
+  display: flex;
+  flex-direction: row;
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(34, 36, 38, 0.15);
+  border-radius: 3px;
+  margin-bottom: 4px;
+  padding: 5px;
+
+  .info {
+    .title {
+      display: block;
+      text-align: right;
+      font-weight: 600;
+      font-size: 13px;
+      line-height: 18px;
+      color: #000;
+      width: 100%;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: pre;
+      padding-left: 10px;
+    }
+  }
+
+  .sets {
+    color: #919cad;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 14px;
+    margin-right: 10px;
+  }
+  .setsDetail {
+    color: #95a6b7;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: pre;
+    text-align: right;
+    font-size: 10px;
+    line-height: 14px;
+  }
+}

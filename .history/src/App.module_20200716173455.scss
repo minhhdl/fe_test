@@ -1,0 +1,13 @@
+.root {
+  display: flex;
+  padding: 30px;
+  min-height: 100vh;
+
+  .listItem {
+    flex: 1;
+    padding: 0 5px;
+    min-height: 100%;
+    flex-shrink: 0;
+    flex-basis: calc(100% / 7);
+  }
+}

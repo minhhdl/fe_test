@@ -1,0 +1,12 @@
+.root {
+  display: flex;
+  padding: 30px;
+  min-height: 100vh;
+
+  .listItem {
+    padding: 0 5px;
+    min-height: 100%;
+    max-width: 100%;
+    flex: 1;
+  }
+}
